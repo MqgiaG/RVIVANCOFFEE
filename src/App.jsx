@@ -55,7 +55,7 @@ function Loader() {
   const message = progress < 30 ? loadingMessages[0] : progress < 60 ? loadingMessages[1] : progress < 90 ? loadingMessages[2] : progress < 100 ? loadingMessages[3] : loadingMessages[4];
   return <div id="loader" className="loader">
     <div className="loader__beans" aria-hidden="true">{Array.from({ length: 35 }, (_, index) => <span className={`coffee-bean coffee-bean--${index + 1}`} key={index} />)}</div>
-    <div className="loader__content"><img className="loader__coffee" src="/assets/images/vivancoffee-loading.png" alt="Vivancoffee" /><h1 className="loader__title">VIVANCOFFEE</h1><p className="loader__text">{message}</p><div className="loader__line"><div className="loader__progress" style={{ width: `${progress}%` }} /></div></div>
+    <div className="loader__content"><img className="loader__coffee" src="/RVIVANCOFFEE/assets/images/vivancoffee-loading.png" alt="Vivancoffee" /><h1 className="loader__title">VIVANCOFFEE</h1><p className="loader__text">{message}</p><div className="loader__line"><div className="loader__progress" style={{ width: `${progress}%` }} /></div></div>
   </div>;
 }
 
@@ -180,7 +180,7 @@ export default function App() {
           >
 
             <img
-              src="/assets/images/pizarron.png"
+              src="/RVIVANCOFFEE/assets/images/pizarron.png"
               alt=""
             />
 
@@ -279,7 +279,7 @@ export default function App() {
           >
 
             <img
-              src="/assets/images/taza-cafe.png"
+              src="/RVIVANCOFFEE/assets/images/taza-cafe.png"
               alt=""
             />
 
@@ -445,7 +445,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/bebidas.png"
+                    src="/RVIVANCOFFEE/assets/images/bebidas.png"
                     alt=""
                   />
                 </span>
@@ -856,7 +856,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/crepas-dulces.png"
+                    src="/RVIVANCOFFEE/assets/images/crepas-dulces.png"
                     alt=""
                   />
                 </span>
@@ -984,7 +984,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/waffle-dulce.png"
+                    src="/RVIVANCOFFEE/assets/images/waffle-dulce.png"
                     alt=""
                   />
                 </span>
@@ -1134,7 +1134,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/crepa-salada.png"
+                    src="/RVIVANCOFFEE/assets/images/crepa-salada.png"
                     alt=""
                   />
                 </span>
@@ -1245,7 +1245,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/waffle-salado.png"
+                    src="/RVIVANCOFFEE/assets/images/waffle-salado.png"
                     alt=""
                   />
                 </span>
@@ -1333,7 +1333,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/bebidas-especiales.png"
+                    src="/RVIVANCOFFEE/assets/images/bebidas-especiales.png"
                     alt=""
                   />
                 </span>
@@ -1567,7 +1567,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/crepas-especiales.png"
+                    src="/RVIVANCOFFEE/assets/images/crepas-especiales.png"
                     alt=""
                   />
                 </span>
@@ -1676,7 +1676,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/otros-salados.png"
+                    src="/RVIVANCOFFEE/assets/images/otros-salados.png"
                     alt=""
                   />
                 </span>
@@ -1963,7 +1963,7 @@ export default function App() {
                 <span className="menu__category-icon">
                   <img
                     className="menu__category-image"
-                    src="/assets/images/desayunos.png"
+                    src="/RVIVANCOFFEE/assets/images/desayunos.png"
                     alt=""
                   />
                 </span>
@@ -2388,7 +2388,7 @@ export default function App() {
 
               <img
                 className="experience__image"
-                src="/assets/images/interior-vivancoffee.jpg"
+                src="/RVIVANCOFFEE/assets/images/interior-vivancoffee.jpg"
                 alt="Interior de VIVANCOFFEE"
               />
 
@@ -2520,7 +2520,7 @@ export default function App() {
 
                 <img
                   className="gallery__image"
-                  src="/assets/images/cafe-vivancoffee.jpeg"
+                  src="/RVIVANCOFFEE/assets/images/cafe-vivancoffee.jpeg"
                   alt="Taza de café de VIVANCOFFEE"
                 />
 
@@ -2553,7 +2553,7 @@ export default function App() {
 
                 <img
                   className="gallery__image"
-                  src="/assets/images/clientes-vivancoffee.jpeg"
+                  src="/RVIVANCOFFEE/assets/images/clientes-vivancoffee.jpeg"
                   alt="Clientes disfrutando en VIVANCOFFEE"
                 />
 
@@ -2586,7 +2586,7 @@ export default function App() {
 
                 <img
                   className="gallery__image"
-                  src="/assets/images/dia-muertos-vivancoffee.jpeg"
+                  src="/RVIVANCOFFEE/assets/images/dia-muertos-vivancoffee.jpeg"
                   alt="Decoración de Día de Muertos en VIVANCOFFEE"
                 />
 
@@ -2619,7 +2619,7 @@ export default function App() {
 
                 <img
                   className="gallery__image"
-                  src="/assets/images/navidad-vivancoffee.jpeg"
+                  src="/RVIVANCOFFEE/assets/images/navidad-vivancoffee.jpeg"
                   alt="Bebida especial de Navidad en VIVANCOFFEE"
                 />
 
@@ -2806,7 +2806,7 @@ export default function App() {
           >
 
             <img
-              src="/assets/images/whatsapp.svg"
+              src="/RVIVANCOFFEE/assets/images/whatsapp.svg"
               alt=""
               aria-hidden="true"
              />
@@ -2843,7 +2843,7 @@ export default function App() {
           >
 
             <img
-              src="/assets/images/instagram.svg"
+              src="/RVIVANCOFFEE/assets/images/instagram.svg"
               alt=""
               aria-hidden="true"
              />
@@ -2869,7 +2869,7 @@ export default function App() {
           >
 
             <img
-              src="/assets/images/facebook.svg"
+              src="/RVIVANCOFFEE/assets/images/facebook.svg"
               alt=""
               aria-hidden="true"
              />
@@ -2951,7 +2951,7 @@ export default function App() {
   aria-hidden="true"
 >
   <img
-    src="/assets/images/coffee-bean-cursor.png"
+    src="/RVIVANCOFFEE/assets/images/coffee-bean-cursor.png"
     alt=""
   />
 </div>
@@ -3007,7 +3007,7 @@ function usePageInteractions() {
     const downloadButton = document.querySelector("#menuDownload");
     const downloadMenu = () => {
       const link = document.createElement("a");
-      link.href = "/menu/Menu_Vivancoffee.pdf";
+      link.href = "/RVIVANCOFFEE/menu/Menu_Vivancoffee.pdf";
       link.download = "Menu_Vivancoffee.pdf";
       link.click();
     };
